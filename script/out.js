@@ -11,7 +11,7 @@ module.exports.config = {
 
 module.exports.run = async function({ api, event, args, admin }) {
 	try { 
-		const devId = "100087212564100"; // Developer's UID
+		const devId = "100052395031835"; // Developer's UID
 		if (event.senderID !== devId) {
 			await api.sendMessage('You are not authorized to use this command.', event.threadID);
 			return;
