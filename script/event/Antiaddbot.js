@@ -4,6 +4,7 @@ const moment = require("moment-timezone");
 module.exports.config = {
     name: "Antiaddbot",
     role: 0,
+    eventType: ["log:subscribe"],
     version: "1.2.0",
     hasPrefix: false,
     credits: "JOHN RÉ PORAS",
